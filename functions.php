@@ -5,6 +5,10 @@
  * @since HTML5 Reset 2.0
  */
 
+if ( ! isset( $content_width ) ) {
+	$content_width = 1350;
+}
+
 	// Options Framework (https://github.com/devinsays/options-framework-plugin)
 	if ( !function_exists( 'optionsframework_init' ) ) {
 		define( 'OPTIONS_FRAMEWORK_DIRECTORY', get_template_directory_uri() . '/_/inc/' );
