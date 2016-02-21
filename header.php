@@ -64,7 +64,7 @@
 			 - See Google Developer docs for Android options. https://developers.google.com/chrome/mobile/docs/installtohomescreen
 		*/
 		if (true == of_get_option('head_favicon')) {
-			echo '<meta name="”"mobile-web-app-capable"”" content="yes">';
+			echo '<meta name="mobile-web-app-capable" content="yes">';
 			echo '<link rel="shortcut icon" sizes="1024x1024" href="' . of_get_option("head_favicon") . '" />';
 		}
 
