@@ -59,6 +59,10 @@ a img.aligncenter {}
 .wp-caption.alignright {}
 .wp-caption img {}
 .wp-caption p.wp-caption-text {}
+.sticky{}
+.screen-reader-text{}
+.gallery-caption{}
+.bypostauthor{}
 
 /* Print styles!
 -------------------------------------------------------------------------------*/
