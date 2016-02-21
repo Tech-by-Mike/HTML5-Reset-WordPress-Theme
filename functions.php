@@ -6,8 +6,12 @@
  */
 
 if ( ! isset( $content_width ) ) {
-	$content_width = 1200;
+    $content_width = 1200;
 }
+function theme_slug_setup() {
+   add_theme_support( 'title-tag' );
+}
+add_action( 'after_setup_theme', 'theme_slug_setup' );
 
 	// Options Framework (https://github.com/devinsays/options-framework-plugin)
 	if ( !function_exists( 'optionsframework_init' ) ) {
