@@ -6,7 +6,7 @@
  */
 
 if ( ! isset( $content_width ) ) {
-	$content_width = 1350;
+	$content_width = 1200;
 }
 
 	// Options Framework (https://github.com/devinsays/options-framework-plugin)
